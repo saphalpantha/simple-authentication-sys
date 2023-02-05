@@ -1,0 +1,23 @@
+{
+  "name": "nextauth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export":"next-export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "mongodb": "^4.12.1",
+    "next": "13.0.5",
+    "next-auth": "^4.18.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

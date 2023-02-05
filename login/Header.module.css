@@ -1,0 +1,46 @@
+
+
+.header{
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    background-color: #3C6255;
+     
+}
+.header ul{
+    padding-top: 1rem ;
+    display: flex;
+    justify-content: space-around;
+    flex: 0.5;
+}
+
+.header li{
+    text-decoration: none;
+}
+
+.header ul li{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+    
+    
+}
+
+
+.button{
+    border: 2px solid white;
+    font-size: 2rem;
+    padding: 0.4em 1em;
+    margin:  0 auto;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all 200ms ease-in-out;
+}
+
+
+.button:hover{
+    background-color: rgb(210, 114, 54);
+    border: none;
+
+}
